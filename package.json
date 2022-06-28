@@ -1,0 +1,34 @@
+{
+  "name": "support-desk",
+  "version": "1.0.0",
+  "description": "support ticket-app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlamulya/ticket-collection.git"
+  },
+  "keywords": [
+    "ticket",
+    "app"
+  ],
+  "author": "Amulya Karla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlamulya/ticket-collection/issues"
+  },
+  "homepage": "https://github.com/karlamulya/ticket-collection#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
